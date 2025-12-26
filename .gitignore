@@ -5,3 +5,6 @@ UserSettings
 *.csproj
 *.vsconfig
 *.sln
+Assets/Space Shooter Template FREE
+obj
+.vs
