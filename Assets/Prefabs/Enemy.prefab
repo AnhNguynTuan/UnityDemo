@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 675309533225907840}
   - component: {fileID: 6734378723580040570}
   - component: {fileID: 9101089106686478486}
-  - component: {fileID: 3701822344803389449}
+  - component: {fileID: 6807228710234160073}
   - component: {fileID: 1077053388906549767}
   m_Layer: 7
   m_Name: Enemy
@@ -153,7 +153,7 @@ PolygonCollider2D:
       - {x: -1.04, y: -0.79999995}
       - {x: -0.48, y: -2.96}
   m_UseDelaunayMesh: 0
---- !u!114 &3701822344803389449
+--- !u!114 &6807228710234160073
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
