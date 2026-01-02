@@ -6,6 +6,7 @@ public class PlayerShooting : MonoBehaviour
 {
     public GameObject bulletPrefabs;
     public float shootingInterval;
+    public Vector3 bulletOffset;
     private float lastBulletTime;
     void Update()
     {
@@ -20,6 +21,6 @@ public class PlayerShooting : MonoBehaviour
     }
     private void ShootBullet()
     {
-        Instantiate(bulletPrefabs, transform.position, transform.rotation);
+        Instantiate(bulletPrefabs, transform.position + bulletOffset, transform.rotation);
     }
 }
