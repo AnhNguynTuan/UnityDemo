@@ -24,8 +24,5 @@ public class Health : MonoBehaviour
         var explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         Destroy(explosion, 0.5f);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Die();
-    }
+    
 }

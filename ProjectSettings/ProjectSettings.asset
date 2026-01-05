@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 93464098e9d84fc4fafa5cea3b59a87f
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -668,14 +668,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: UnityDemo
+  metroPackageName: UnityDemo1
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: UnityDemo
+  metroApplicationDescription: UnityDemo1
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -750,7 +750,7 @@ PlayerSettings:
   cloudProjectId: 20b45540-9a95-4404-9487-30a02d5085a9
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: My project (6)
+  projectName: Space Shooter FREE
   organizationId: unity_2a984435d633b33cd987
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
