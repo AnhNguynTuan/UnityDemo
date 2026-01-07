@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5748568054168867929}
   - component: {fileID: 934825464559654695}
   - component: {fileID: 7602118304307831076}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: PlayerShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 6183248811426763220}
   - component: {fileID: 5149703907084032179}
   - component: {fileID: 9173566008211214306}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Engine_01_Basic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
