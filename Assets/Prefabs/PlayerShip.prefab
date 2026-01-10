@@ -116,7 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefabs: {fileID: 6620755767742260082, guid: 10a47afbadb8f6340b33734f3c563d79,
     type: 3}
-  shootingInterval: 1
+  shootingInterval: 0.55
   bulletOffset: {x: 0, y: 0.5, z: 0}
 --- !u!60 &934825464559654695
 PolygonCollider2D:
@@ -266,8 +266,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac08807130181c04a8228f6240ad6570, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultHealth: 0
-  explosionPrefab: {fileID: 0}
+  defaultHealth: 5
+  explosionPrefab: {fileID: 7288809941558503147, guid: b402ce94701db9e439e49d2cffebbf19,
+    type: 3}
 --- !u!1 &2966052637672561477
 GameObject:
   m_ObjectHideFlags: 0

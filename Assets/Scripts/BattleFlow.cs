@@ -10,7 +10,6 @@ public class BattleFlow : MonoBehaviour
     public GameObject gameOverUI;
     public PlayerHealth playerHealth;
     public GameObject gameWinUI;
-    public SceneManager sceneManager;
     private void Start()
     {
         gameOverUI.SetActive(false);
