@@ -5,18 +5,21 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public int defaultHealth;
-    private int baseHealth;
+    public int baseHealth;
     public GameObject explosionPrefab;
     public System.Action onDead;
+    public System.Action onHealthChange;
     // Start is called before the first frame update
     void Start()
     {
         baseHealth = defaultHealth;
+        onHealthChange?.Invoke();
     }
     public void TakeDamage(int damage)
     {
         if(baseHealth <= 0) return;
         baseHealth -= damage;
+        onHealthChange?.Invoke();
         if (baseHealth <= 0) Die();
     }
     public virtual void Die()
